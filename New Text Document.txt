@@ -1,0 +1,9 @@
+this.button = new lib.submit();
+	this.button.name = "button";
+		this.button.on("click", function(a) {
+			var address = document.getElementById("addrs").value
+			var data ={address:address}
+			console.log(data)
+		}.bind(this));
+	this.button.setTransform(644.1,1244.2,0.9999,0.9999,0,0,0,0.1,0);
+	new cjs.ButtonHelper(this.button, 0, 1, 1);
